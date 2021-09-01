@@ -1,0 +1,39 @@
+.movie {
+  background-color: white;
+  width: 80%;
+  height: 365px;
+  display: flex;
+
+  border-radius: 10px;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.movie img {
+  margin-right: 10px;
+  z-index: 1;
+  width: 250px;
+  height: 365px;
+}
+
+h3 {
+  font-size: 36px;
+  margin: 20px 0px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+ul li {
+  font-weight: 300;
+  margin-right: 8px;
+}
+
+p {
+  width: 90%;
+  text-align: justify;
+  margin-top: 30px;
+}
